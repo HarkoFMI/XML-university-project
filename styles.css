@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'CaviarDreamsRegular';
+	src: url('./CaviarDreams.ttf');
+}
+@font-face {
+	font-family: 'CaviarDreamsItalic';
+	src: url('./CaviarDreams_Italic.ttf');
+}
+@font-face {
+	font-family: 'CaviarDreamsBold';
+	src: url('./CaviarDreams_Bold.ttf');
+}
+@font-face {
+	font-family: 'CaviarDreamsBoldItalic';
+	src: url('./CaviarDreams_BoldItalic.ttf');
+}
+
+body {
+    background-color: #F1F1F1;
+    font-family: CaviarDreamsRegular;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: rgba(0,0,0,0.2);
+}
+
+p, a {
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+button:focus {
+    background-color: black;
+}
+
+
+.button {
+    background-color: #009900;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 2px;
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+}
+
+#menu {
+    width:100%;
+    align-content: center;
+}
+
+.dam, .chainlist, .region {
+    display: flex;
+    margin: 5px;
+    background-color: white;
+    padding: 2px;
+    border: 1px black;
+    border-radius: 15px;
+    padding: 1px;
+    -webkit-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+#regionLabel {
+    color: #000000;
+    border: 2px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+hr {
+    color: black;
+    margin: 2px;
+}
+.item {
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px black;
+    padding: 2px;
+}
+ 
+#label, #damName {
+    color: #193366;
+    display: inline-block;
+    position: relative;
+}
+
+
+#label > a{
+    position: relative;
+    width: 100%;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.presentation {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.presentation > img {
+    position: relative;
+    width: 100%;
+    vertical-align: central;
+    margin: 1px;
+}
+
+#label {
+	font-size: 15px;
+	font-style:italic;
+	margin-top:10px;
+	margin-bottom: 0px;
+	margin-left:10px;
+}
+
+#extraInfo {
+	width: 250px;
+	display: inline-block;
+	margin-top:0px;
+	margin-left: 0px;
+	vertical-align: top;
+	overflow: hidden;
+	position:relative;
+}
+
+
+.damsListContainer {
+    padding-left: 10px;
+}
