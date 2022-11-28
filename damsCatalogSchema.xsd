@@ -28,6 +28,7 @@
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element name="area" type="xs:string" minOccurs="0"/>
+                          <xs:element name="full-area" type="xs:string" minOccurs="0"/>
                           <xs:element name="waterVolume" type="xs:string" minOccurs="0" />
                           <xs:element name="waterSupplyPoolArea" type="xs:string" minOccurs="0" />
                           <xs:element name="length" type="xs:string" minOccurs="0"/>
@@ -53,8 +54,8 @@
                 <xs:complexType>
                   <xs:simpleContent>
                     <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="name" />
-                      <xs:attribute type="xs:integer" name="regionId" />
+                      <xs:attribute type="xs:string" name="regionRef" />
+                      <xs:attribute type="xs:integer" name="regionRefId" />
                     </xs:extension>
                   </xs:simpleContent>
                 </xs:complexType>
