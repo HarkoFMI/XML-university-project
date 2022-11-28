@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="damsXSLT.xsl"?>
 <damsCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="damsCatalogSchema.xsd">
   <damsList>
     <dam>
       <id>1</id>
       <name>Язовир Батак</name>
       <region>област Пазарджик</region>
-      <regionId>3</regionId>
+      <regionId>1</regionId>
       <altitude>1107,8 m</altitude>
       <constructionYear>1959 г.</constructionYear>
       <damWall>
@@ -14,17 +15,18 @@
         <length>273 m</length>
       </damWall>
       <lake>
-        <area>21,4 km²</area>
+        <area>21.4</area>
+        <full-area>21,4 km²</full-area>
         <waterVolume>310 000 000 m³</waterVolume>
         <waterSupplyPoolArea>463,29 km²</waterSupplyPoolArea>
       </lake>
-      <picture location="Batak"/>
+      <picture location="pic1"/>
     </dam>
     <dam>
       <id>2</id>
       <name>Язовир Въча</name>
-      <region>между обрасти Смолян, Пазарджик, Пловдив</region>
-      <regionId>3</regionId>
+      <region>област Смолян</region>
+      <regionId>2</regionId>
       <altitude>540 m</altitude>
       <constructionYear>1975г.</constructionYear>
       <damWall>
@@ -33,18 +35,19 @@
         <length>420 m</length>
       </damWall>
       <lake>
-        <area>5 km²</area>
+        <area>5</area>
+        <full-area>5 km²</full-area>
         <waterVolume>226 200 000 m³</waterVolume>
         <length>15 km</length>
         <width>1,6 km</width>
       </lake>
-      <picture location="Vucha"/>
+      <picture location="pic2"/>
     </dam>
     <dam>
       <id>3</id>
       <name>Язовир Искър</name>
       <region>област София</region>
-      <regionId>1</regionId>
+      <regionId>3</regionId>
       <altitude>817.65 m</altitude>
       <constructionYear>1950 – 1954г.</constructionYear>
       <damWall>
@@ -53,13 +56,14 @@
         <length>204 m</length>
       </damWall>
       <lake>
-        <area>30 km²</area>
+        <area>30</area>
+        <full-area>30 km²</full-area>
         <waterVolume>673 000 000 m³</waterVolume>
         <waterSupplyPoolArea>1046 km²</waterSupplyPoolArea>
         <length>10,9 km</length>
         <width>3,38 km</width>
       </lake>
-      <picture location="Iskur"/>
+      <picture location="pic3"/>
     </dam>
     <dam>
       <id>4</id>
@@ -74,13 +78,14 @@
         <length>230 m</length>
       </damWall>
       <lake>
-        <area>22,1 km²</area>
+        <area>22.1</area>
+        <full-area>22,1 km²</full-area>
         <waterVolume>449 300 000 m³</waterVolume>
         <waterSupplyPoolArea>495 km²</waterSupplyPoolArea>
         <length>19 km</length>
         <width>3 km</width>
       </lake>
-      <picture location="Dospat" />
+      <picture location="pic4" />
     </dam>
     <dam>
       <id>5</id>
@@ -95,18 +100,19 @@
         <length>488 m</length>
       </damWall>
       <lake>
-        <area>8,4 km²</area>
+        <area>8.4</area>
+        <full-area>8,4 km²</full-area>
         <waterVolume>140 000 000 m³</waterVolume>
         <length>7,4 km</length>
         <width>1,2 km</width>
       </lake>
-      <picture location="Koprinka"/>
+      <picture location="pic5"/>
     </dam>
     <dam>
       <id>6</id>
       <name>Язовир Белмекен</name>
       <region>област Пазарджик</region>
-      <regionId>3</regionId>
+      <regionId>1</regionId>
       <altitude>1923 m</altitude>
       <constructionYear>1974 г.</constructionYear>
       <damWall>
@@ -114,17 +120,18 @@
         <height>88,2 m</height>
       </damWall>
       <lake>
-        <area>4,6 km²</area>
+        <area>4.6</area>
+        <full-area>4,6 km²</full-area>
         <waterVolume>144 100 000 m³</waterVolume>
         <length>3,98 km</length>
         <width>1,2 km</width>
       </lake>
-      <picture location="Belmeken"/>
+      <picture location="pic6"/>
     </dam>
     <dam>
       <id>7</id>
       <name>Язовир Бели Искър</name>
-      <region>Рило-Родопска планинска област</region>
+      <region>област София</region>
       <regionId>3</regionId>
       <altitude>1900 m</altitude>
       <constructionYear>1939 - 1945г.</constructionYear>
@@ -133,18 +140,19 @@
         <length>500-600 m</length>
       </damWall>
       <lake>
-        <area>0,85 km²</area>
+        <area>0.85</area>
+        <full-area>0,85 km²</full-area>
         <waterVolume>15 300 000 m³</waterVolume>
         <length>2,8 km</length>
         <width>0,55 km</width>
       </lake>
-      <picture location="BeliIskur"/>
+      <picture location="pic7"/>
     </dam>
     <dam>
       <id>8</id>
       <name>Язовир Ивайловград</name>
       <region>област Хасково</region>
-      <regionId>2</regionId>
+      <regionId>5</regionId>
       <altitude>120 m</altitude>
       <constructionYear>1964г.</constructionYear>
       <damWall>
@@ -153,18 +161,19 @@
         <length>250 m</length>
       </damWall>
       <lake>
-        <area>15,1 km²</area>
+        <area>15.1</area>
+        <full-area>15,1 km²</full-area>
         <waterVolume>156 700 000 m³</waterVolume>
         <length>30 km</length>
         <width>1,3 km</width>
       </lake>
-      <picture location="Ivailovgrad"/>
+      <picture location="pic8"/>
     </dam>
     <dam>
       <id>9</id>
       <name>Язовир Кърджали</name>
       <region>област Кърджали</region>
-      <regionId>2</regionId>
+      <regionId>6</regionId>
       <altitude>331,45 m</altitude>
       <constructionYear>1977г.</constructionYear>
       <damWall>
@@ -173,19 +182,22 @@
         <length>344 m</length>
       </damWall>
       <lake>
-        <area>13,4 km²</area>
+        <area>13.4</area>
+        <full-area>13,4 km²</full-area>
         <waterVolume>497 200 000 m³</waterVolume>
         <waterSupplyPoolArea>1882 km²</waterSupplyPoolArea>
         <length>20 km</length>
         <width>1,3 km</width>
       </lake>
-      <picture location="Kurdjali"/>
+      <picture location="pic9"/>
     </dam>
   </damsList>
   <regions>
-    <regionInfo name="Западна България" regionId="1" />
-    <regionInfo name="Южна България" regionId="2" />
-    <regionInfo name="Югозападна България" regionId="3" />
-    <regionInfo name="Централна България" regionId="4" />
+    <regionInfo regionRef="област Пазарджик" regionRefId="1" />
+    <regionInfo regionRef="област Смолян" regionRefId="2" />
+    <regionInfo regionRef="област София" regionRefId="3" />
+    <regionInfo regionRef="област Стара Загора" regionRefId="4" />
+    <regionInfo regionRef="област Хасково" regionRefId="5" />
+    <regionInfo regionRef="област Кърджали" regionRefId="6" />
   </regions>
 </damsCatalog>
