@@ -43,7 +43,7 @@ button:focus {
 
 
 .button {
-    background-color: #009900;
+    background-color: #0096FF;
     border: none;
     border-radius: 10px;
     color: white;
@@ -64,7 +64,7 @@ button:focus {
     align-content: center;
 }
 
-.dam, .chainlist, .region {
+.dam, .region {
     display: flex;
     margin: 5px;
     background-color: white;
@@ -86,24 +86,29 @@ button:focus {
     padding-left: 20px;
 }
 
-hr {
-    color: black;
-    margin: 2px;
-}
 .item {
-    border-bottom: 0.5px solid black;
-    border-top: 0.5px black;
     padding: 2px;
 }
  
+.item::after {
+    display: block;
+    content : "";
+    position: relative;
+    left    : 0;
+    bottom  : 0;
+    width   : 120%;  
+    border-bottom: 1px solid  black;
+    margin: 0 30px auto 45px;
+    padding: 4px 0px;
+}
+
 #label, #damName {
     color: #193366;
     display: inline-block;
     position: relative;
 }
 
-
-#label > a{
+#label > a {
     position: relative;
     width: 100%;
     word-break: break-all;

@@ -219,6 +219,7 @@
                             </div>
                         </div>
                     </xsl:for-each>
+                    <hr class="hr" />
                 </div>
             </div>
         </xsl:for-each>
