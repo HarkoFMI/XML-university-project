@@ -63,43 +63,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <!--<xs:element name="cityList" maxOccurs="1">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="cityInfo" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="cityRef" />
-                      <xs:attribute type="xs:integer" name="cityIdRef" />
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>-->
       </xs:sequence>
     </xs:complexType>
-    <!--<xs:key name="chainKey">
-      <xs:selector xpath="restaurants/restaurantList/restaurant" />
-      <xs:field xpath="chainName" />
-      <xs:field xpath="chainId" />
-    </xs:key>
-    <xs:keyref name="chainRef" refer="chainKey">
-      <xs:selector xpath="restaurants/chainList/chainInfo" />
-      <xs:field xpath="@chainNameRef" />
-      <xs:field xpath="@chainIdRef" />
-    </xs:keyref>
-    <xs:key name="cityKey">
-      <xs:selector xpath="restaurants/restaurantList/restaurant" />
-      <xs:field xpath="city" />
-      <xs:field xpath="cityId" />
-    </xs:key>
-    <xs:keyref name="cityRef" refer="cityKey">
-      <xs:selector xpath="restaurants/cityList/cityInfo" />
-      <xs:field xpath="@cityRef" />
-      <xs:field xpath="@cityIdRef" />
-    </xs:keyref>-->
   </xs:element>
 </xs:schema>
