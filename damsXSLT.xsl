@@ -61,7 +61,7 @@
                   <p id="damName" style="text-align: center">
                     <xsl:value-of select="name"/>
                   </p>
-                  <img src="{unparsed-entity-uri(picture/@location)}"/>
+                    <img src="{unparsed-entity-uri(picture/@location)}"/>
                 </div>
 
 
@@ -116,7 +116,7 @@
                   <p id="damName" style="text-align: center">
                     <xsl:value-of select="name"/>
                   </p>
-                  <img src="{unparsed-entity-uri(picture/@location)}"/>
+                    <img src="{unparsed-entity-uri(picture/@location)}"/>
                 </div>
 
 
