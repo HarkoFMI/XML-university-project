@@ -61,8 +61,6 @@
                   <p id="damName" style="text-align: center">
                     <xsl:value-of select="name"/>
                   </p>
-<!--                  <xsl:variable name="picName" select="picture/@location"/>-->
-                  <!--<img src="damImages/pic{id}.jpg"/>-->
                   <img src="{unparsed-entity-uri(picture/@location)}"/>
                 </div>
 
