@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="damsXSLT.xsl"?>
-<damsCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:SchemaLocation="damsCatalogSchema.xsd">
+<damsCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="damsCatalogSchema.xsd">
   <damsList>
     <dam>
       <id>1</id>

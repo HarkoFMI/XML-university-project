@@ -38,7 +38,7 @@
                     </xs:element>
                     <xs:element name="picture">
                       <xs:complexType>
-                        <xs:attribute name="location" type="xs:ENTITY"/>
+                        <xs:attribute name="location" type="xs:string"/>
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
