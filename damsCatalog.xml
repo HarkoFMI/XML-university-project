@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE damsCatalog [
-    <!ENTITY pic1 SYSTEM "./damImages/pic1.jpg" NDATA jpg>
-    <!ENTITY pic2 SYSTEM "./damImages/pic2.jpg" NDATA jpg>
-    <!ENTITY pic3 SYSTEM "./damImages/pic3.jpg" NDATA jpg>
-    <!ENTITY pic4 SYSTEM "./damImages/pic4.jpg" NDATA jpg>
-    <!ENTITY pic5 SYSTEM "./damImages/pic5.jpg" NDATA jpg>
-    <!ENTITY pic6 SYSTEM "./damImages/pic6.jpg" NDATA jpg>
-    <!ENTITY pic7 SYSTEM "./damImages/pic7.jpg" NDATA jpg>
-    <!ENTITY pic8 SYSTEM "./damImages/pic8.jpg" NDATA jpg>
-    <!ENTITY pic9 SYSTEM "./damImages/pic9.jpg" NDATA jpg>
+    <!ENTITY pic1 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic1.jpg" NDATA jpg>
+    <!ENTITY pic2 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic2.jpg" NDATA jpg>
+    <!ENTITY pic3 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic3.jpg" NDATA jpg>
+    <!ENTITY pic4 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic4.jpg" NDATA jpg>
+    <!ENTITY pic5 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic5.jpg" NDATA jpg>
+    <!ENTITY pic6 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic6.jpg" NDATA jpg>
+    <!ENTITY pic7 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic7.jpg" NDATA jpg>
+    <!ENTITY pic8 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic8.jpg" NDATA jpg>
+    <!ENTITY pic9 SYSTEM "https://raw.githubusercontent.com/HarkoFMI/XML-university-project/main/damImages/pic9.jpg" NDATA jpg>
     <!NOTATION jpg PUBLIC "jpg">
 ]>
 <?xml-stylesheet type="text/xsl" href="damsXSLT.xsl"?>
@@ -154,7 +154,6 @@
       <picture location="pic7"/>
     </dam>
     <dam id="8">
-      <id>8</id>
       <name>Язовир Ивайловград</name>
       <region>област Хасково</region>
       <regionId>5</regionId>

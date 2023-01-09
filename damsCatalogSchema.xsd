@@ -8,9 +8,7 @@
             <xs:sequence>
               <xs:element name="dam" maxOccurs="unbounded">
                 <xs:complexType>
-
                   <xs:sequence>
-<!--                    <xs:attribute type="xs:string" name="id" />-->
                     <xs:element name="name" type="xs:string" />
                     <xs:element name="region" type="xs:string" />
                     <xs:element name="regionId" type="xs:integer" />
@@ -28,21 +26,22 @@
                     <xs:element name="lake">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element name="area" type="xs:string" minOccurs="0"/>
-                          <xs:element name="full-area" type="xs:string" minOccurs="0"/>
-                          <xs:element name="waterVolume" type="xs:string" minOccurs="0" />
-                          <xs:element name="waterSupplyPoolArea" type="xs:string" minOccurs="0" />
-                          <xs:element name="length" type="xs:string" minOccurs="0"/>
-                          <xs:element name="width" type="xs:string" minOccurs="0" />
+                            <xs:element name="area" type="xs:decimal" minOccurs="0"/>
+                            <xs:element name="full-area" type="xs:string" minOccurs="0"/>
+                            <xs:element name="waterVolume" type="xs:string" minOccurs="0" />
+                            <xs:element name="waterSupplyPoolArea" type="xs:string" minOccurs="0" />
+                            <xs:element name="length" type="xs:string" minOccurs="0"/>
+                            <xs:element name="width" type="xs:string" minOccurs="0" />
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
                     <xs:element name="picture">
                       <xs:complexType>
-                        <xs:attribute name="location" type="xs:string"/>
+                        <xs:attribute name="location" type="xs:string" />
                       </xs:complexType>
                     </xs:element>
                   </xs:sequence>
+                  <xs:attribute name="id" type="xs:integer" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
@@ -53,12 +52,8 @@
             <xs:sequence>
               <xs:element name="regionInfo" maxOccurs="unbounded">
                 <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:string" name="regionRef" />
-                      <xs:attribute type="xs:integer" name="regionRefId" />
-                    </xs:extension>
-                  </xs:simpleContent>
+                  <xs:attribute name="regionRef" type="xs:string" use="required" />
+                  <xs:attribute name="regionRefId" type="xs:integer" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
