@@ -50,9 +50,9 @@
   <xsl:template match="/damsCatalog/damsList">
     <div id="damsListContainer" class="container">
       <div class="row">
-        <xsl:for-each select="/damsCatalog/damsList/dam[id &lt; 10]">
+        <xsl:for-each select="/damsCatalog/damsList/dam[@id &lt; 10]">
             <xsl:sort
-                select="id"
+                select="@id"
                 data-type="number"
                 order="descending"/>
 
@@ -61,8 +61,9 @@
                   <p id="damName" style="text-align: center">
                     <xsl:value-of select="name"/>
                   </p>
-                  <xsl:variable name="picName" select="picture/@location"/>
-                  <img src="damImages/pic{id}.jpg"/>
+<!--                  <xsl:variable name="picName" select="picture/@location"/>-->
+                  <!--<img src="damImages/pic{id}.jpg"/>-->
+                  <img src="{unparsed-entity-uri(picture/@location)}"/>
                 </div>
 
 
@@ -106,7 +107,7 @@
 
      <div id="areaContainer" style="display:none;" class="container">
       <div class="row">
-        <xsl:for-each select="/damsCatalog/damsList/dam[id &lt; 10]">
+        <xsl:for-each select="/damsCatalog/damsList/dam[@id &lt; 10]">
             <xsl:sort
                 select="lake/area"
                 data-type="number"
@@ -117,8 +118,7 @@
                   <p id="damName" style="text-align: center">
                     <xsl:value-of select="name"/>
                   </p>
-                  <xsl:variable name="picName" select="picture/@location"/>
-                  <img src="damImages/pic{id}.jpg"/>
+                  <img src="{unparsed-entity-uri(picture/@location)}"/>
                 </div>
 
 
@@ -180,8 +180,7 @@
                                 <p id="damName" style="text-align: center">
                                     <xsl:value-of select="name"/>
                                 </p>
-                                <xsl:variable name="picName" select="picture/@location"/>
-                                <img src="damImages/pic{id}.jpg"/>
+                                <img src="{unparsed-entity-uri(picture/@location)}"/>
                             </div>
 
 

@@ -1,9 +1,20 @@
 <?xml version="1.0"?>
+<!DOCTYPE damsCatalog [
+    <!ENTITY pic1 SYSTEM "./damImages/pic1.jpg" NDATA jpg>
+    <!ENTITY pic2 SYSTEM "./damImages/pic2.jpg" NDATA jpg>
+    <!ENTITY pic3 SYSTEM "./damImages/pic3.jpg" NDATA jpg>
+    <!ENTITY pic4 SYSTEM "./damImages/pic4.jpg" NDATA jpg>
+    <!ENTITY pic5 SYSTEM "./damImages/pic5.jpg" NDATA jpg>
+    <!ENTITY pic6 SYSTEM "./damImages/pic6.jpg" NDATA jpg>
+    <!ENTITY pic7 SYSTEM "./damImages/pic7.jpg" NDATA jpg>
+    <!ENTITY pic8 SYSTEM "./damImages/pic8.jpg" NDATA jpg>
+    <!ENTITY pic9 SYSTEM "./damImages/pic9.jpg" NDATA jpg>
+    <!NOTATION jpg PUBLIC "jpg">
+]>
 <?xml-stylesheet type="text/xsl" href="damsXSLT.xsl"?>
 <damsCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="damsCatalogSchema.xsd">
   <damsList>
-    <dam>
-      <id>1</id>
+    <dam id="1">
       <name>Язовир Батак</name>
       <region>област Пазарджик</region>
       <regionId>1</regionId>
@@ -22,8 +33,7 @@
       </lake>
       <picture location="pic1"/>
     </dam>
-    <dam>
-      <id>2</id>
+    <dam id="2">
       <name>Язовир Въча</name>
       <region>област Смолян</region>
       <regionId>2</regionId>
@@ -43,8 +53,7 @@
       </lake>
       <picture location="pic2"/>
     </dam>
-    <dam>
-      <id>3</id>
+    <dam id="3">
       <name>Язовир Искър</name>
       <region>област София</region>
       <regionId>3</regionId>
@@ -65,8 +74,7 @@
       </lake>
       <picture location="pic3"/>
     </dam>
-    <dam>
-      <id>4</id>
+    <dam id="4">
       <name>Язовир Доспат</name>
       <region>област Смолян</region>
       <regionId>2</regionId>
@@ -87,8 +95,7 @@
       </lake>
       <picture location="pic4" />
     </dam>
-    <dam>
-      <id>5</id>
+    <dam id="5">
       <name>Язовир Копринка</name>
       <region>област Стара Загора</region>
       <regionId>4</regionId>
@@ -108,8 +115,7 @@
       </lake>
       <picture location="pic5"/>
     </dam>
-    <dam>
-      <id>6</id>
+    <dam id="6">
       <name>Язовир Белмекен</name>
       <region>област Пазарджик</region>
       <regionId>1</regionId>
@@ -128,8 +134,7 @@
       </lake>
       <picture location="pic6"/>
     </dam>
-    <dam>
-      <id>7</id>
+    <dam id="7">
       <name>Язовир Бели Искър</name>
       <region>област София</region>
       <regionId>3</regionId>
@@ -148,7 +153,7 @@
       </lake>
       <picture location="pic7"/>
     </dam>
-    <dam>
+    <dam id="8">
       <id>8</id>
       <name>Язовир Ивайловград</name>
       <region>област Хасково</region>
@@ -169,8 +174,7 @@
       </lake>
       <picture location="pic8"/>
     </dam>
-    <dam>
-      <id>9</id>
+    <dam id="9">
       <name>Язовир Кърджали</name>
       <region>област Кърджали</region>
       <regionId>6</regionId>
